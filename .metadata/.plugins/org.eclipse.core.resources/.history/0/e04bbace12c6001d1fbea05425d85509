@@ -1,0 +1,98 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import openGaussPlatform.openGausslink;
+
+/**
+ * Servlet implementation class mingling
+ */
+@WebServlet("/mingling")
+public class mingling extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public mingling() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException, ClassNotFoundException, SQLException {
+        response.setContentType("text/html;charset=UTF-8");
+        try (PrintWriter out = response.getWriter()) {
+            /* TODO output your page here. You may use following sample code. */
+            String strinG=request.getParameter("strinG");
+            String[] temp,temp1;
+            temp=strinG.split(" ");
+            String temp2=temp[0];//获取首个单词
+            temp1=strinG.split("");
+            String temp3=temp1[temp1.length-1];//获取最后一个字符
+            System.out.println(temp2);
+            System.out.println(temp3);
+            if(temp3.equals(";")) {//判断语句是否带‘;’
+            	openGausslink obj=new openGausslink();
+                //连接数据库
+                Connection con= obj.GetConnection("jack", "Aowei103");
+                //创建preparedstatement对象
+                PreparedStatement preparedStatement=con.prepareStatement(strinG);
+                
+    	        ResultSet rs=preparedStatement.executeQuery();
+                out.print("<script language='javascript'>alert('执行成功！');window.location.href='main_system.jsp';</script>");
+                while (rs.next()) {
+                    System.out.println("【id:" + rs.getString("firstcol") + "】");
+                }
+                preparedStatement.close();
+                rs.close();
+                con.close();
+            }else {
+            	out.print("<script language='javascript'>alert('执行错误，句尾应该带分号！');window.location.href='main_system.jsp';</script>");
+            }
+            
+        }
+        
+    }
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		try {
+			processRequest(request, response);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ServletException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

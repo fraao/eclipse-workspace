@@ -1,0 +1,65 @@
+
+3月 10, 2023 10:42:14.90 NEW SESSION
+3月 10, 2023 10:42:14.90 [7412:1208:0310/104214.907:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 10, 2023 10:42:14.95 [7412:1208:0310/104214.954:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+3月 10, 2023 10:42:17.94 [7412:1208:0310/104217.943:ERROR:device_event_log_impl.cc(218)] [10:42:17.949] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 10, 2023 10:42:17.94 [7412:1208:0310/104217.943:ERROR:device_event_log_impl.cc(218)] [10:42:17.950] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+
+3月 12, 2023 10:20:16.85 NEW SESSION
+3月 12, 2023 10:20:16.85 [10440:1136:0312/102016.853:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 12, 2023 10:20:16.93 [10440:1136:0312/102016.931:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+3月 12, 2023 10:20:19.27 [10440:1136:0312/102019.278:ERROR:device_event_log_impl.cc(218)] [10:20:19.278] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+
+3月 13, 2023 06:35:03.67 NEW SESSION
+3月 13, 2023 06:35:03.67 [12200:9308:0313/063503.632:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 13, 2023 06:35:03.69 [12200:9308:0313/063503.690:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+3月 13, 2023 06:35:06.14 [12200:9308:0313/063506.146:ERROR:processor_entity.cc(171)] Metadata has an exisiting server id that will be overwritten with the current update entity id.metadata server_id:  update.entity.id: c477cd22-62c3-4c2f-883b-aeccb9e9c42a
+3月 13, 2023 06:35:06.23 [12200:9308:0313/063506.232:ERROR:device_event_log_impl.cc(218)] [06:35:06.232] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 13, 2023 06:35:06.23 [12200:9308:0313/063506.233:ERROR:device_event_log_impl.cc(218)] [06:35:06.234] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 13, 2023 06:36:47.91 [12200:9308:0313/063647.915:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 13, 2023 06:37:00.98 [6252:13640:0313/063700.981:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 13, 2023 06:37:01.05 [6252:13640:0313/063701.056:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+3月 13, 2023 06:37:03.30 [6252:13640:0313/063703.304:ERROR:device_event_log_impl.cc(218)] [06:37:03.304] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 13, 2023 06:37:03.30 [6252:13640:0313/063703.305:ERROR:device_event_log_impl.cc(218)] [06:37:03.305] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 13, 2023 06:38:01.31 [6252:13640:0313/063801.317:ERROR:sitelist_downloader.cc(244)] Sitelist download failed: ERR_NAME_NOT_RESOLVED url=https://go.microsoft.com/fwlink/?linkid=2171760&bucket=8 cid=N/A status=-105
+3月 13, 2023 06:38:47.79 [6252:13640:0313/063847.790:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 13, 2023 06:38:51.91 [6252:13640:0313/063851.915:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 13, 2023 06:38:52.16 [6252:13640:0313/063852.169:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 13, 2023 06:40:39.92 [6252:13640:0313/064039.926:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+3月 17, 2023 11:02:14.72 NEW SESSION
+3月 17, 2023 11:02:14.72 [16308:16424:0317/110214.624:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 17, 2023 11:02:14.72 [16308:16424:0317/110214.684:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+3月 17, 2023 11:02:15.73 [16308:16424:0317/110215.732:ERROR:processor_entity.cc(171)] Metadata has an exisiting server id that will be overwritten with the current update entity id.metadata server_id:  update.entity.id: 017f9462-0acd-4ff3-86c1-bfab13aeefe5
+3月 17, 2023 11:02:18.11 [16308:16424:0317/110218.116:ERROR:device_event_log_impl.cc(222)] [11:02:18.116] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 17, 2023 11:02:18.12 [16308:16424:0317/110218.122:ERROR:device_event_log_impl.cc(222)] [11:02:18.122] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+3月 17, 2023 11:02:18.86 [16308:16424:0317/110218.859:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 17, 2023 11:02:19.80 [16308:16424:0317/110219.163:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 17, 2023 11:02:19.80 [16308:16424:0317/110219.282:ERROR:CONSOLE(1)] "Refused to display 'https://login.live.com/' in a frame. The embedder requires it to enforce the following Content Security Policy: 'frame-src https://www.bing.com/search https://edgeservices.bing.com/ https://www.bing.com/shop/productpage https://www.bing.com/images/create https://login.live.com/login.srf; base-uri 'self'; require-trusted-types-for 'script'; trusted-types default;'. However, the frame neither accepts that policy using the Allow-CSP-From header nor delivers a Content Security Policy which is at least as strong as that one.", source: chrome-error://chromewebdata/ (1)
+3月 17, 2023 11:02:19.80 [16308:16424:0317/110219.335:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+4月 03, 2023 23:19:14.63 NEW SESSION
+4月 03, 2023 23:19:14.63 [8044:9324:0403/231914.605:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+4月 03, 2023 23:19:14.72 [8044:9324:0403/231914.728:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+4月 03, 2023 23:19:16.19 [8044:9324:0403/231916.191:ERROR:processor_entity.cc(171)] Metadata has an exisiting server id that will be overwritten with the current update entity id.metadata server_id:  update.entity.id: 1c720025-cb01-4e95-83d8-e74a6906f67f
+4月 03, 2023 23:19:17.17 [8044:9324:0403/231917.173:ERROR:device_event_log_impl.cc(222)] [23:19:17.173] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+4月 03, 2023 23:19:17.17 [8044:9324:0403/231917.174:ERROR:device_event_log_impl.cc(222)] [23:19:17.174] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+4月 03, 2023 23:21:35.83 [8044:9324:0403/232135.839:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+4月 03, 2023 23:21:54.21 [8044:9324:0403/232154.213:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+5月 07, 2023 09:15:32.18 NEW SESSION
+5月 07, 2023 09:15:32.18 [12476:2104:0507/091532.179:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+5月 07, 2023 09:15:32.21 [12476:2104:0507/091532.192:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+5月 07, 2023 09:15:32.26 [12476:2104:0507/091532.264:ERROR:assistance_home_client.cc(32)] File path C:\Users\IGfraAo\AppData\Local\Microsoft\Edge\User Data\Default
+5月 07, 2023 09:15:35.41 [12476:2104:0507/091535.413:ERROR:device_event_log_impl.cc(222)] [09:15:35.412] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+5月 07, 2023 09:15:35.41 [12476:2104:0507/091535.414:ERROR:device_event_log_impl.cc(222)] [09:15:35.413] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 连到系统上的设备没有发挥作用。 (0x1F)
+
+5月 22, 2023 22:32:04.61 NEW SESSION
+5月 22, 2023 22:32:04.61 [2648:22504:0522/223204.614:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+5月 22, 2023 22:32:04.69 [2648:22504:0522/223204.632:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+5月 22, 2023 22:32:09.42 [2648:22504:0522/223209.428:ERROR:processor_entity.cc(171)] Metadata has an exisiting server id that will be overwritten with the current update entity id.metadata server_id:  update.entity.id: f355464f-1138-4fbf-8460-5743680bb642
+
+5月 23, 2023 15:20:59.90 NEW SESSION
+5月 23, 2023 15:20:59.90 [23888:19928:0523/152059.903:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+5月 23, 2023 15:20:59.98 [23888:19928:0523/152059.940:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+5月 23, 2023 15:21:04.40 [23888:19928:0523/152104.403:ERROR:processor_entity.cc(171)] Metadata has an exisiting server id that will be overwritten with the current update entity id.metadata server_id:  update.entity.id: 25a33b48-528d-4828-869b-0e4f2353ff38

@@ -1,0 +1,16 @@
+127.0.0.1 - - [22/May/2023:22:32:03 +0800] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:08 +0800] "GET /openGaussPlatform/wrong.jsp HTTP/1.1" 200 985
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:08 +0800] "GET /openGaussPlatform/js/echarts.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:08 +0800] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:17 +0800] "GET /openGaussPlatform/index.jsp HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:17 +0800] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:24 +0800] "GET /openGaussPlatform/login_yanzheng?code=123456&pass=123456 HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:24 +0800] "GET /openGaussPlatform/main_system.jsp HTTP/1.1" 200 2343
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:26 +0800] "GET /openGaussPlatform/history.jsp HTTP/1.1" 200 1579
+0:0:0:0:0:0:0:1 - - [22/May/2023:22:32:29 +0800] "GET /openGaussPlatform/wrong.jsp HTTP/1.1" 200 1200
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:22:04 +0800] "GET /openGaussPlatform/index.jsp HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:22:04 +0800] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:23:22 +0800] "GET /openGaussPlatform/login_yanzheng?code=123456&pass=123456 HTTP/1.1" 200 56
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:23:22 +0800] "GET /openGaussPlatform/main_system.jsp HTTP/1.1" 200 2343
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:23:24 +0800] "GET /openGaussPlatform/history.jsp HTTP/1.1" 200 1579
+0:0:0:0:0:0:0:1 - - [22/May/2023:23:23:26 +0800] "GET /openGaussPlatform/wrong.jsp HTTP/1.1" 200 1320

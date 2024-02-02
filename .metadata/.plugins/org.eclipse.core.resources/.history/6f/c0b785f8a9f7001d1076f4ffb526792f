@@ -1,0 +1,70 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="openGaussPlatform.openGausslink" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<title>错误分析</title>
+</head>
+<body>
+<% 
+   String s=(String)session.getAttribute("当前用户");
+   openGausslink obj=new openGausslink();
+   Connection con= obj.GetConnection("jack", "Aowei103");
+   String sql="select *from history where username="+s+";";
+   PreparedStatement preparedStatement=con.prepareStatement(sql);
+   ResultSet resultSet=preparedStatement.executeQuery();
+   while(resultSet.next()){
+	   String A=resultSet.getString("wrong");
+	   String[] temp;
+	   temp=A.split(" ");
+	   String B=temp[2];
+	   %> <%=B%>  <%
+   };
+   
+%>
+<div id="main" style="width:600px;height: 400px;"></div>
+<script type="text/javascript">
+  var myChart = echarts.init(document.getElementById('main'));
+  option = {
+		  title: {
+		    text: '错误分析',
+		    subtext: 'Fake Data',
+		    left: 'center'
+		  },
+		  tooltip: {
+		    trigger: 'item'
+		  },
+		  legend: {
+		    orient: 'vertical',
+		    left: 'left'
+		  },
+		  series: [
+		    {
+		      name: '出错原因',
+		      type: 'pie',
+		      radius: '50%',
+		      data: [
+		    	  <%
+		    	  while(resultSet.next()){%>
+		        { value: 1, name: <%=resultSet.getString("wrong")%> },
+		        <%}%>
+		      ],
+		      emphasis: {
+		        itemStyle: {
+		          shadowBlur: 10,
+		          shadowOffsetX: 0,
+		          shadowColor: 'rgba(0, 0, 0, 0.5)'
+		        }
+		      }
+		    }
+		  ]
+		};
+  myChart.setOption(option);
+</script>
+</body>
+</html>
